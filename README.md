@@ -20,13 +20,13 @@ pip install randomprefixgenerator
 ```
 from randomprefixgenerator import RandomPrefixGenerator
 
-# Create a new myIp object for generating IPv4 addresses
+# Create a new RandomPrefixGenerator object for generating IPv4 addresses
 ipv4_gen = RandomPrefixGenerator(4, mode='ip')
 
 # Generate a random IPv4 address
 ipv4_addr = next(ipv4_gen)
 
-# Create a new myIp object for generating IPv6 subnets with prefix lengths between 64 and 120
+# Create a new RandomPrefixGenerator object for generating IPv6 subnets with prefix lengths between 64 and 120
 ipv6_gen = RandomPrefixGenerator(6, mode='prefix', min_length=64, max_length=120)
 
 # Generate a random IPv6 subnet
