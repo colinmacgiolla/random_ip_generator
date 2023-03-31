@@ -4,8 +4,8 @@ with open('README.md', 'r', encoding='utf-8') as fh:
     long_description = fh.read()
 
 setup(
-    name='random_ip_generator',
-    version='0.1',
+    name='random_prefix_generator',
+    version='0.2',
     author='Colin MacGiollaEain',
     description='A package for generating random IPv4 and IPv6 addresses and subnets',
     long_description=long_description,

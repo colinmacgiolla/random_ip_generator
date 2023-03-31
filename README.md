@@ -1,6 +1,6 @@
-# Random IP Generator
+# Random IP/Prefix Generator
 
-`randomipgenerator` is a simple Python module for generating random IPv4 and IPv6 addresses and subnets.
+`randomprefixgenerator` is a simple Python module for generating random IPv4 and IPv6 addresses and subnets.
 
 ## Features
 * Generate random IPv4 or IPv6 addresses.
@@ -12,22 +12,22 @@
 
 You can install myIp using pip:
 ```
-pip install randomipgenerator
+pip install randomprefixgenerator
 ```
 
 
 ## Usage
 ```
-from randomipgenerator import RandomIpGenerator
+from randomprefixgenerator import RandomPrefixGenerator
 
 # Create a new myIp object for generating IPv4 addresses
-ipv4_gen = RandomIpGenerator(4, mode='ip')
+ipv4_gen = RandomPrefixGenerator(4, mode='ip')
 
 # Generate a random IPv4 address
 ipv4_addr = next(ipv4_gen)
 
 # Create a new myIp object for generating IPv6 subnets with prefix lengths between 64 and 120
-ipv6_gen = myIp(6, mode='prefix', min_length=64, max_length=120)
+ipv6_gen = RandomPrefixGenerator(6, mode='prefix', min_length=64, max_length=120)
 
 # Generate a random IPv6 subnet
 ipv6_subnet = next(ipv6_gen)

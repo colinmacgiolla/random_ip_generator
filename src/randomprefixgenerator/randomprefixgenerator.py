@@ -6,7 +6,7 @@ import ipaddress
 
 
 
-class RandomIpGenerator:
+class RandomPrefixGenerator:
 
     def __init__(self, version: int, mode='prefix', min_length=16, max_length=24 ) -> None:
 
