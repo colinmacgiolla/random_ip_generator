@@ -10,7 +10,7 @@ setup(
     description='A package for generating random IPv4 and IPv6 addresses and subnets',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url="",
+    url="https://github.com/colinmacgiolla/random_ip_generator",
     author_email='colin@flat-planet.net',
     package_dir={'': 'src'},
     packages=find_packages(where='src'),
