@@ -14,9 +14,9 @@ class RandomPrefixGenerator:
             self._version = version
         else:
             return None
-        
+
+        self._mode = mode        
         if mode == 'prefix':
-            self._mode = mode
             self._min = min_length
             self._max = max_length
 
