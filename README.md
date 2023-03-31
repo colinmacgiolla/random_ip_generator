@@ -36,4 +36,3 @@ ipv6_subnet = next(ipv6_gen)
 ## Dependancies
 * Python 3.x
 * `ipaddress` module
-* `random` module

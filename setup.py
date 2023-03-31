@@ -14,7 +14,7 @@ setup(
     author_email='colin@flat-planet.net',
     package_dir={'': 'src'},
     packages=find_packages(where='src'),
-    install_requires=['ipaddress','random'],
+    install_requires=['ipaddress'],
     python_requires='>=3.6',
     classifiers=[
         # see https://pypi.org/classifiers/
