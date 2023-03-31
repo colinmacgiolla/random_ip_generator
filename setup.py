@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setup(
     name='random_prefix_generator',
-    version='0.2',
+    version='0.3',
     author='Colin MacGiollaEain',
     description='A package for generating random IPv4 and IPv6 addresses and subnets',
     long_description=long_description,
